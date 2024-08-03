@@ -1,18 +1,18 @@
 import React from "react";
 import Button from "../Button/Button";
-import { useTelegram } from "../../hooks/useTelegram";
+import {useTelegram} from "../../hooks/useTelegram";
 
 const Header = () => {
     const {user, onClose} = useTelegram();
 
     retutn (
         <div className={'header'}>
-            <button onClick={onClose}>Закрыть</button>
-            <samp className={'username'}>
+            <Button onClick={onClose}>Закрыть</Button>
+            <span className={'username'}>
                 {user?.username}
-            </samp>
+            </span>
         </div>
     );
 };
 
-export default Header
+export default Header;

@@ -11,11 +11,9 @@ function App() {
     tg.ready();
   }, [])
 
-
-
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <button onClick={onToggleButton}>Toggle</button>
     </div>
   );
