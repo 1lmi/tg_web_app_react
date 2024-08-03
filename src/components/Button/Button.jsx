@@ -1,7 +1,7 @@
 import React from "react";
 
 const Button = (props) => {
-    retutn (
+    return (
         <button {...props} className={'button ' + props.className}/>
     );
 };
