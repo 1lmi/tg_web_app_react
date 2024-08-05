@@ -9,6 +9,7 @@
     background: #2A2A2A; /* Темный фон */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Добавлен отступ сверху */
 }
 
 /* Стиль для заголовка */
