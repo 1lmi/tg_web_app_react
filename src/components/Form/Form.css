@@ -1,17 +1,55 @@
+/* Основной стиль для формы */
 .form {
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
     padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.input {
+/* Стиль для заголовка */
+.form h3 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Общий стиль для полей ввода */
+.input, .select {
     width: 100%;
     padding: 10px;
     margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
 }
 
-.select {
-    padding: 10px;
-    margin-top: 15px;
+/* Стиль для полей ввода при фокусе */
+.input:focus, .select:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Стиль для кнопки */
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
