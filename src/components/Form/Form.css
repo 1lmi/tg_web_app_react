@@ -6,7 +6,7 @@
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background: #fff;
+    background: #2A2A2A; /* Темный фон */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -14,7 +14,8 @@
 /* Стиль для заголовка */
 .form h3 {
     margin-bottom: 20px;
-    color: #333;
+    color: #0088CC; /* Цвет в стиле Telegram */
+    font-family: 'Arial', sans-serif; /* Другой шрифт */
     font-size: 1.5em;
     text-align: center;
 }
@@ -24,17 +25,19 @@
     width: 100%;
     padding: 10px;
     margin-top: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 5px;
     font-size: 1em;
+    background: #3A3A3A; /* Темный фон для ввода */
+    color: #fff; /* Белый текст */
     box-sizing: border-box;
 }
 
 /* Стиль для полей ввода при фокусе */
 .input:focus, .select:focus {
-    border-color: #007BFF;
+    border-color: #0088CC; /* Цвет в стиле Telegram при фокусе */
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 0 5px rgba(0, 136, 204, 0.5);
 }
 
 /* Стиль для кнопки */
@@ -43,7 +46,7 @@ button {
     margin-top: 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007BFF;
+    background-color: #0088CC; /* Цвет в стиле Telegram */
     color: white;
     font-size: 1em;
     cursor: pointer;
@@ -51,5 +54,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #006699;
 }
